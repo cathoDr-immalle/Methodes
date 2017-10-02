@@ -6,7 +6,26 @@
         xmlns:local="clr-namespace:objecten_en_methodes"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <Canvas>
+        <Grid Height="319" Width="517">
+            <Canvas Margin="216,141,195,107">
+                <Button x:Name="ButtonDraw" Content="Draw" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="ButtonDraw_Click" Canvas.Left="111" Canvas.Top="-69"/>
+
+            </Canvas>
+            <Canvas x:Name="MijnCanvas" HorizontalAlignment="Left" Height="222" Margin="29,51,0,0" VerticalAlignment="Top" Width="232" Background="#FF959090" MouseEnter="mijnCanvas_MouseEnter">
+                <Rectangle x:Name="MijnRechthoek" Fill="#FF152120" Height="69" Canvas.Left="148" Stroke="Black" Canvas.Top="135" Width="66" RenderTransformOrigin="1.109,0.099">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="44.202"/>
+                            <TranslateTransform X="7.915" Y="35.861"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+            </Canvas>
+            <Button x:Name="Knop2" Content="Button" HorizontalAlignment="Left" Height="21" Margin="331,120,0,0" VerticalAlignment="Top" Width="76" Click="Knop2_Click"/>
+
+        </Grid>
+    </Canvas>
 </Window>
