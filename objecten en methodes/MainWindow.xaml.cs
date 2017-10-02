@@ -128,13 +128,13 @@ namespace objecten_en_methodes
             lijn10.Stroke = new SolidColorBrush(Colors.Blue);
             MijnCanvas.Children.Add(lijn10);
 
-            Line lijn10 = new Line();
-            lijn10.X1 = 130;
-            lijn10.Y1 = 145;
-            lijn10.X2 = 130;
-            lijn10.Y2 = 10;
-            lijn10.Stroke = new SolidColorBrush(Colors.Blue);
-            MijnCanvas.Children.Add(lijn10);
+            Line lijn11 = new Line();
+            lijn11.X1 = 10;
+            lijn11.Y1 = 145;
+            lijn11.X2 = 130;
+            lijn11.Y2 = 145;
+            lijn11.Stroke = new SolidColorBrush(Colors.Blue);
+            MijnCanvas.Children.Add(lijn11);
         }
     }
 }
